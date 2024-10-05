@@ -1,0 +1,5 @@
+
+streamlit==1.13.0
+pandas==1.5.0
+easysnmp==0.2.5
+faker==13.3.0
