@@ -44,20 +44,24 @@ monitor
 
 1. **仮想環境を作成** (推奨):
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+python3 -m venv venv
+   ```
+
+2. **仮想環境に切り替え**:
+   ```bash
+source venv/bin/activate
    ```
 
 2. **依存関係をインストール**:
    ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
    ```
 
 ## アプリケーションの実行
 
 1. **Streamlit アプリケーションを起動**:
    ```bash
-   streamlit run PDU_monitor_function.py
+streamlit run PDU_monitor_function.py
    ```
 
 2. **ブラウザでアプリケーションにアクセス**:
